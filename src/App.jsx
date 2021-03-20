@@ -44,6 +44,7 @@ const App=()=> {
 				showError(err);
 			});
 	};
+
     return (
       <div className='main ui container'>
         <div className='ui row'>
@@ -66,8 +67,7 @@ const App=()=> {
         </div>}
          
         </div>
-
-      </div>
+     </div>
     );
   }
 
