@@ -1,0 +1,33 @@
+{
+    "data":[{
+        "theater_code":10291,
+        "theater_name":"abc cinemas",
+        "theater_address":"street 1, innovation hall-1, bangalore-1",
+        "theater_ratings":5
+    },{
+        "theater_code":10292, 
+        "theater_name":"def cinemas",
+        "theater_address":"street 2, innovation hall-2, bangalore-2",
+        "theater_ratings":4
+    },{
+        "theater_code":10293, 
+        "theater_name":"fgh cinemas",
+        "theater_address":"street 3, innovation hall-3, bangalore-3",
+        "theater_ratings":4.6
+    },{
+        "theater_code":10294, 
+        "theater_name":"jkl cinemas",
+        "theater_address":"street 4, innovation hall-4, bangalore-4",
+        "theater_ratings":3
+    },{
+        "theater_code":10295, 
+        "theater_name":"mno cinemas",
+        "theater_address":"street 5, innovation hall-5, bangalore-5",
+        "theater_ratings":3.5
+    },{
+        "theater_code":10296, 
+        "theater_name":"pqr cinemas",
+        "theater_address":"street 6, innovation hall-6, bangalore-6",
+        "theater_ratings":4.9
+    }]
+}

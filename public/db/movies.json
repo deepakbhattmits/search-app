@@ -1,0 +1,26 @@
+{
+    "data":[{
+        "theater_code":10291,
+        "movie_name":"abc"
+        },{
+        "theater_code":10292, 
+        "movie_name":"def",
+        "star_cast":"hero"
+        },{
+        "theater_code":10293, 
+        "movie_name":"fgh",
+        "star_cast":"hero"
+        },{
+        "theater_code":10294, 
+        "movie_name":"jkl",
+        "star_cast":"hero"
+        },{
+        "theater_code":10295, 
+        "movie_name":"mno",
+        "star_cast":"hero"
+        },{
+        "theater_code":10296, 
+        "movie_name":"pqr",
+        "star_cast":"hero"
+         }]
+}
