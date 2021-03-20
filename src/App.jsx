@@ -7,7 +7,7 @@ const App=()=> {
   const [inputs, setInputs] = useState({ error: '', isLoading: false });
   const [data,setData]=useState([]);
 
-
+// fetch data after hit submit
   const getData=async (movie)=>{
     const movies_res=await fetch('/db/movies.json');
     const data= await movies_res.json();
