@@ -29,17 +29,17 @@ const App=()=> {
 		const error = err?.response?.data || err?.message;
 		setInputs((inputs) => ({
 			...inputs,
-			['error']: error,
-			['isLoading']: false,
+			'error': error,
+			'isLoading': false,
 		}));
 	};
 	const handleSubmit = (event) => {
 		event.preventDefault();
 		const { movie, location } = inputs;
-		setInputs((inputs) => ({ ...inputs, ['isLoading']: true }));
+		setInputs((inputs) => ({ ...inputs, 'isLoading': true }));
 	getData(movie, location)
 			.then((data) =>{ setData(data);
-        setInputs((inputs) => ({ ...inputs, ['isLoading']: false }));})
+        setInputs((inputs) => ({ ...inputs, 'isLoading': false }));})
 			.catch((err) => {
 				showError(err);
 			});
