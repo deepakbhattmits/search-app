@@ -1,26 +1,26 @@
 {
     "data":[{
         "theater_code":10291,
-        "movie_name":"abc"
+        "movie_name":"Baaghi"
         },{
         "theater_code":10292, 
-        "movie_name":"def",
+        "movie_name":"Baazaar",
         "star_cast":"hero"
         },{
         "theater_code":10293, 
-        "movie_name":"fgh",
+        "movie_name":"Bajra Vs Burger",
         "star_cast":"hero"
         },{
         "theater_code":10294, 
-        "movie_name":"jkl",
+        "movie_name":"Blackmail",
         "star_cast":"hero"
         },{
         "theater_code":10295, 
-        "movie_name":"mno",
+        "movie_name":"Dassehra",
         "star_cast":"hero"
         },{
         "theater_code":10296, 
-        "movie_name":"pqr",
+        "movie_name":"Dhadak",
         "star_cast":"hero"
          }]
 }
