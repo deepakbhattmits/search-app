@@ -17,7 +17,7 @@ const App=()=> {
       return movie_name.toLowerCase().includes(movie.toLowerCase());
     });
     const finalData= theater_res.data.find(({theater_code})=>{
-      return theater_code===filteredData.theater_code});
+      return theater_code===filteredData?.theater_code});
       console.log(finalData);
       return finalData;
     }
@@ -60,7 +60,12 @@ const App=()=> {
 				</div>
 			)}
         <div className='ui row'>
-          {!!data &&  <RenderPage data={data} />}
+          {console.log(!!data)}
+          {!!data ?  <RenderPage data={data} />:<div className="ui negative message">
+  <div className="header">
+    We're sorry movie name not in the database, Please try with other name
+  </div>
+  </div>}
          
         </div>
 
