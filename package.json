@@ -15,9 +15,7 @@
   "scripts": {
     "start": "cross-env PORT=8000 react-scripts start",
     "build": "react-scripts build",
-    "pretest": "npm install",
     "test": "react-scripts test --noStackTrace",
-    "test:ci": "npm install; cross-env CI=true TEST_REPORT_FILENAME=./unit.xml react-scripts test --verbose --env=jsdom --testResultsProcessor jest-junit-reporter",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
