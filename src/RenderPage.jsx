@@ -1,5 +1,5 @@
 
-const RenderPage = ( {data:{theater_name,theater_address,theater_ratings}} ) => {
+const RenderPage = ( {data:{theater_name,theater_address,theater_ratings}, data} ) => {
    const renderData = ( ) => {
       return (
           <tr>
@@ -9,7 +9,9 @@ const RenderPage = ( {data:{theater_name,theater_address,theater_ratings}} ) => 
           </tr>
           );
     }
-    
+    if(data.length===0){
+      return false
+    }
     return (
       
       <div>
