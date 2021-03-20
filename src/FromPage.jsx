@@ -2,7 +2,7 @@ const FormPage = ( {handleChange,handleSubmit, disabled} ) => {
     return (
       <>
         <form className="ui form" onSubmit={ handleSubmit }>
-    <div class="two fields">
+    <div className="two fields">
           <div className="field">
             <label>Movie Name</label>
             <input type="text" name="movie" placeholder="Movie Name" onChange={ handleChange } />

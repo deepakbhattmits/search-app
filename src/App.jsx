@@ -59,11 +59,12 @@ const App=()=> {
 				</div>
 			)}
         <div className='ui row'>
-          {!!data ?  <RenderPage data={data} />:<div className="ui negative message">
+          {!!data ?  <RenderPage data={data} />:''}
+          {data.length?<div className="ui negative message">
   <div className="header">
     We're sorry movie name not in the database, Please try with other name
   </div>
-  </div>}
+  </div>:''}
          
         </div>
 

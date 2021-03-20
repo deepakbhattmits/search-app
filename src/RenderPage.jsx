@@ -1,5 +1,5 @@
 
-const RenderPage = ( {data:{theater_name,theater_address,theater_ratings},isLoading} ) => {
+const RenderPage = ( {data:{theater_name,theater_address,theater_ratings}} ) => {
    const renderData = ( ) => {
       return (
           <tr>
@@ -22,7 +22,7 @@ const RenderPage = ( {data:{theater_name,theater_address,theater_ratings},isLoad
                   </tr>
             </thead>
             <tbody>
-                { isLoading?'loading ...':renderData() }
+                {renderData() }
             </tbody>
           </table>
       </div>
