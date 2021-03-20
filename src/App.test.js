@@ -59,7 +59,7 @@ it('should show no results message', () => {
   const dom = render(<App />);
   const noResult = queryByTestId(dom.container, 'no-result');
   if (noResult) {
-    // in case the item is found display should be none
+    // in case the item is found display should be none 
     const display = noResult.style.getPropertyValue('display');
     expect(display).toEqual('');
   } else {
